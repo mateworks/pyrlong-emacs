@@ -1,0 +1,1 @@
+python pppp -C ppppconfig.py pppp.rst.in pymacs.el.in \  pymacs.rst.in Pymacs contrib tests

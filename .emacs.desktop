@@ -1,0 +1,63 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Feb 11 09:22:07 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.50.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21241 31551 171186 956000) (desktop . "206") "james@PYRLONG.COM" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars . 0) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 0) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (alpha) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (visibility) (minibuffer) (sticky) (frameset--id . "E958-1CBE-D7F1-6E8C") (frameset--mini nil . "4B95-5F1F-EE99-4934") (modeline . t) (unsplittable . t) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . ":0") (explicit-name) (height . 53) (width . 20) (left . 54) (top + -8)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 90) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 27) (min-pixel-height-safe . 19) (min-pixel-width-safe . 18)) leaf (last . t) (pixel-width . 205) (pixel-height . 1007) (total-width . 22) (total-height . 53) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected) (hscroll . 0) (fringes 0 9 nil) (margins nil) (scroll-bars 16 2 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "DejaVu Sans Mono:pixelsize=15") (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars . 0) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "4B95-5F1F-EE99-4934") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 44) (width . 168) (left . 49) (top . 24)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 90) (min-pixel-height-ignore . 76) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 38) (min-pixel-width-safe . 18)) vc (pixel-width . 1551) (pixel-height . 833) (total-width . 172) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1551) (pixel-height . 662) (total-width . 172) (total-height . 35) (normal-height . 0.7965186074429772) (normal-width . 1.0) (buffer "k" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins 1) (scroll-bars 16 2 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 1551) (pixel-height . 171) (total-width . 172) (total-height . 9) (normal-height . 0.2034813925570228) (normal-width . 1.0) (buffer "*Calendar*" (selected) (hscroll . 0) (fringes 9 9 nil) (margins 1) (scroll-bars 16 2 t nil) (vscroll . 0) (dedicated) (point . 342) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("clander" "gnuse" "gnu" "gud-self-kill" "next" "mai" "sl" "mode" "?" "9" "meta tab" " php-mode-map  n" " php-mode-map  " "get_new_trx" "get_trx" "hook"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/diary/diary" "~/.emacs.d/init-settings.el" "~/.emacs.d/calendar/init.el" "~/.emacs.d/" "~/.emacs.d/basic/k" "/usr/share/emacs/24.3.50/lisp/custom.el.gz" "~/.emacs.d/" "~/.emacs.d/basic/init.el" "/opt/deploy/hamster-1.0/conf/dpp.properties" "~/workspace/java/hamster/build/deploy.sh" "~/diary/diary" "~/.emacs.d/ide/init.el" "~/.emacs.d/cmode/init.el" "/opt/workspace/c/sniffer/main.c" "/usr/include/asm-generic/bitsperlong.h" "/usr/include/asm-generic/posix_types.h" "/usr/include/x86_64-linux-gnu/asm/bitsperlong.h" "/usr/include/asm-generic/ioctl.h" "/usr/include/x86_64-linux-gnu/asm/posix_types_64.h" "/usr/include/asm-generic/int-ll64.h" "/usr/include/asm-generic/sockios.h" "/usr/include/x86_64-linux-gnu/asm/ioctl.h" "/usr/include/x86_64-linux-gnu/asm/posix_types.h" "/usr/include/asm-generic/types.h" "/usr/include/x86_64-linux-gnu/asm/sockios.h" "/usr/include/x86_64-linux-gnu/asm/types.h" "/usr/include/asm-generic/socket.h" "/usr/include/asm-generic/ioctls.h" "/usr/include/x86_64-linux-gnu/asm/socket.h" "/usr/include/x86_64-linux-gnu/asm/ioctls.h" "/opt/workspace/c/sniffer/main.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/james/.emacs.d/basic/k"
+  "k"
+  'text-mode
+  '(auto-fill-mode overwrite-mode linum-mode yas/minor-mode)
+  1
+  '(2 t)
+  nil
+  nil
+  '((overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/home/james/.emacs.d/basic/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode semantic-highlight-edits-mode semantic-show-unmatched-syntax-mode semantic-show-parser-state-mode semantic-stickyfunc-mode semantic-highlight-func-mode senator-minor-mode semantic-idle-scheduler-mode semantic-idle-summary-mode semantic-idle-local-symbol-highlight-mode semantic-idle-completions-mode semantic-mru-bookmark-mode semantic-decoration-mode srecode-minor-mode linum-mode yas/minor-mode auto-complete-mode hs-minor-mode)
+  8674
+  '(8456 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  nil
+  "basic"
+  'dired-mode
+  '(auto-fill-mode linum-mode)
+  284
+  '(nil nil)
+  t
+  '("/home/james/.emacs.d/basic/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/james/diary/diary"
+  "diary"
+  'diary-mode
+  '(auto-fill-mode linum-mode)
+  1
+  '(2951 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos)))
+

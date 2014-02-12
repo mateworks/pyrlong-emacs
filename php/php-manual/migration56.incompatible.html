@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Backward Incompatible Changes</title>
+
+ </head>
+ <body><div class="manualnavbar" style="text-align: center;">
+ <div class="prev" style="text-align: left; float: left;"><a href="migration56.changes.html">What has changed in PHP 5.6.x</a></div>
+ <div class="next" style="text-align: right; float: right;"><a href="migration56.new-features.html">New features</a></div>
+ <div class="up"><a href="migration56.html">Migrating from PHP 5.5.x to PHP 5.6.x</a></div>
+ <div class="home"><a href="index.html">PHP Manual</a></div>
+</div><hr /><div id="migration56.incompatible" class="sect1">
+  <h2 class="title">Backward Incompatible Changes</h2>
+  <p class="simpara">
+   Although most existing PHP 5 code should work without changes, please take
+   note of some backward incompatible changes:
+  </p>
+
+  <div class="sect2" id="migration56.incompatible.json-decode">
+   <h3 class="title"><span class="function"><a href="function.json-decode.html" class="function">json_decode()</a></span> strictness</h3>
+
+   <p class="para">
+    <span class="function"><a href="function.json-decode.html" class="function">json_decode()</a></span> now rejects non-lowercase variants of the
+    JSON literals <em>true</em>, <em>false</em> and
+    <em>null</em> at all times, as per the JSON specification, and
+    sets <span class="function"><a href="function.json-last-error.html" class="function">json_last_error()</a></span> accordingly. Previously, inputs
+    to <span class="function"><a href="function.json-decode.html" class="function">json_decode()</a></span> that consisted solely of one of these
+    values in upper or mixed case were accepted.
+   </p>
+
+   <p class="para">
+    This change will only affect cases where invalid JSON was being passed to
+    <span class="function"><a href="function.json-decode.html" class="function">json_decode()</a></span>: valid JSON input is unaffected and will
+    continue to be parsed normally.
+   </p>
+  </div>
+
+  <div class="sect2" id="migration56.incompatible.gmp">
+   <h3 class="title"><a href="book.gmp.html" class="link">GMP</a> resources are now objects</h3>
+
+   <p class="para">
+    <a href="book.gmp.html" class="link">GMP</a> resources are now objects. The
+    functional API implemented in the GMP extension has not changed, and code
+    should run modified unless it checks explicitly for a resource using
+    <span class="function"><a href="function.is-resource.html" class="function">is_resource()</a></span> or similar.
+   </p>
+  </div>
+ </div><hr /><div class="manualnavbar" style="text-align: center;">
+ <div class="prev" style="text-align: left; float: left;"><a href="migration56.changes.html">What has changed in PHP 5.6.x</a></div>
+ <div class="next" style="text-align: right; float: right;"><a href="migration56.new-features.html">New features</a></div>
+ <div class="up"><a href="migration56.html">Migrating from PHP 5.5.x to PHP 5.6.x</a></div>
+ <div class="home"><a href="index.html">PHP Manual</a></div>
+</div></body></html>
